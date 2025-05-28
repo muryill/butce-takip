@@ -13,9 +13,9 @@ Kullanıcıdan veri alır, dosya olarak saklar ve verileri analiz edip grafik ol
  Kullanılan Teknolojiler
 
 - Python 3
-- `csv` – Veri saklama
-- `pandas` – Veri analizi
-- `matplotlib` – Grafik çizimi
+- csv – Veri saklama
+- pandas – Veri analizi
+- matplotlib – Grafik çizimi
 
  Dosya Yapısı
 
@@ -25,7 +25,7 @@ veriler.csv → Kullanıcı verileri otomatik burada tutulur
 
  Nasıl Kullanılır?
 
-1. `main.py` dosyasını çalıştırın.
+1. main.py dosyasını çalıştırın.
 2. Menüden işlem seçin:
    - 1 → Yeni kayıt ekle
    - 2 → Verileri listele
