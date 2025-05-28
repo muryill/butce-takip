@@ -1,29 +1,29 @@
- BÜTÇE TAKİP UYGULAMASI
+# BÜTÇE TAKİP UYGULAMASI
 
 Python ile geliştirilmiş konsol tabanlı bir gelir-gider yönetim ve analiz uygulamasıdır.  
 Kullanıcıdan veri alır, dosya olarak saklar ve verileri analiz edip grafik olarak gösterir.
 
- Özellikler
+## Özellikler
 
 -  Gelir/Gider kaydı ekleme
 -  Kayıtları listeleme ve toplam gelir/gider/bakiye hesaplama
 -  Aylık gelir-gider grafiği (matplotlib ile)
 -  Menü tabanlı kullanıcı arayüzü
 
- Kullanılan Teknolojiler
+## Kullanılan Teknolojiler
 
 - Python 3
 - csv – Veri saklama
 - pandas – Veri analizi
 - matplotlib – Grafik çizimi
 
- Dosya Yapısı
+## Dosya Yapısı
 
 main.py → Uygulama kodu (tüm işlemler burada)
 veriler.csv → Kullanıcı verileri otomatik burada tutulur
 
 
- Nasıl Kullanılır?
+## Nasıl Kullanılır?
 
 1. main.py dosyasını çalıştırın.
 2. Menüden işlem seçin:
@@ -32,7 +32,7 @@ veriler.csv → Kullanıcı verileri otomatik burada tutulur
    - 3 → Aylık grafik çiz
    - 4 → Çıkış
 
-📝 Örnek Veri Formatı
+## Örnek Veri Formatı
 
 Tarih,Açıklama,Kategori,Miktar
 23/05/2025,Market,gider,300
